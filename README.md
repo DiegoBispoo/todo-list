@@ -60,4 +60,4 @@ Durante esse projeto, desenvolvi:
 
 ## 👨‍💻 Autor
 
-Desenvolvido por Diego 🚀  
+Desenvolvido por Diego 🚀  ss
