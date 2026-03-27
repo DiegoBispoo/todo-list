@@ -1,0 +1,112 @@
+/* ===============================
+   ESTILO GLOBAL DA PÁGINA
+================================ */
+body {
+  font-family: Arial, sans-serif;
+
+  /* Fundo em gradiente */
+  /* Por quê? Deixar o visual mais moderno */
+  background: linear-gradient(135deg, #0f2027, #2502d7, #011148);
+
+  /* Centraliza o conteúdo na tela */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  margin: 0;
+}
+h1{
+  text-align: center;
+}
+/* ===============================
+   CONTAINER PRINCIPAL
+================================ */
+.container {
+  /* Efeito vidro (glassmorphism) */
+  background: rgba(255, 255, 255, 0.1);
+
+  /* Desfoque do fundo */
+  backdrop-filter: blur(10px);
+
+  padding: 25px;
+  border-radius: 15px;
+  width: 320px;
+
+  color: white;
+}
+
+/* ===============================
+   INPUT + BOTÃO
+================================ */
+.input-area {
+  display: flex; /* coloca lado a lado */
+  gap: 10px; /* espaço entre eles */
+}
+
+/* Campo de digitação */
+input {
+  flex: 1; /* ocupa o espaço disponível */
+  padding: 10px;
+
+  border-radius: 8px;
+  border: none;
+}
+
+/* Botões */
+button {
+  padding: 10px;
+
+  border-radius: 8px;
+  border: none;
+
+  cursor: pointer;
+
+  /* Gradiente azul + roxo */
+  background: linear-gradient(45deg, #0b0142, #1c015c);
+
+  color: white;
+  font-weight: bold;
+
+  transition: 0.2s;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+  transform: scale(1.05);
+}
+
+/* ===============================
+   LISTA
+================================ */
+ul {
+  list-style: none; /* remove bolinhas */
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* Item da lista */
+li {
+  background: rgba(255, 255, 255, 0.2);
+  margin-bottom: 10px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 5px;
+}
+
+/* Tarefa concluída */
+.completed {
+  text-decoration: line-through;
+  color: #04bbe3;
+}
+
+/* Botão excluir */
+li button {
+  background: red;
+  padding: 5px;
+  
+}
